@@ -1,5 +1,7 @@
 package syntax.demo;
 
+import java.io.PrintStream;
+
 class item_inventoryobjectTemplate {
     //fields!
     String type;
@@ -27,11 +29,11 @@ class item_inventoryobjectTemplate {
     }
 
     //objects
-
     item_inventoryobjectTemplate faina = new item_inventoryobjectTemplate("aliment de baza", "bucata",12,15f);
     item_inventoryobjectTemplate salam = new item_inventoryobjectTemplate("mezeluri","bucata",37,13.5f);
     item_inventoryobjectTemplate cascaval = new item_inventoryobjectTemplate("aliment de baza","kilogram",12, 4.11f);
 }
+
 
 public class main {
     public static void main(String[] args) {
@@ -44,8 +46,8 @@ public class main {
                 System.out.println("Hello!");
             }
         }
-        System.out.print("Hi!");
-
+        System.out.print("Hi!\n");
+        System.out.println("Hi, but this one's a ln!");
     }
 
 }
