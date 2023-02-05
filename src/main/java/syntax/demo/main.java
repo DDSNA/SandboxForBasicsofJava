@@ -4,12 +4,14 @@ class item_inventoryobjectTemplate {
     //fields!
     String type;
     String quantity_type;
+    double quantity;
     float price;
 
     //constructor (needs to include all of the above)
     item_inventoryobjectTemplate(String type, String quantity_type, float price) {
         this.type = type;
         this.quantity_type = quantity_type;
+        this.quantity = quantity;
         this.price = price;
     }
 
@@ -17,6 +19,11 @@ class item_inventoryobjectTemplate {
     float updatepriceValue(float updatedpriceValue) {
         this.price = updatedpriceValue;
         return this.price;
+    }
+
+    double updatestockQuantity(double updatedstockQuantity) {
+        this.quantity = updatedstockQuantity;
+        return  this.quantity;
     }
 
     //objects
