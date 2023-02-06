@@ -3,7 +3,7 @@ package syntax.demo.user.data;
 //class
 public class user_Data {
     protected String userName;
-    //discovere protected which is a middle ground between private and public
+    //discovered protected which is a middle ground between private and public
     private String passwordUnescure;
     public String userType;
 

@@ -16,7 +16,11 @@ public class main {
         System.out.println("Hi, but this one's a ln!");
 
         System.out.println("Now that we know it works... welcome to SmallShopInventoryApp! :)\n");
-
+        // why isn't this allowed in a class?
+        int[] exampleintArr = {1,2,3,4,5,6,7,8,9,10};
+        for (int j = 0; j<=5; j++) {
+            System.out.println("Simple loop for j + 1 incrementally leads to j=" + j);
+        }
     }
 
 }
