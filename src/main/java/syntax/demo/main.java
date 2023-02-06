@@ -14,6 +14,9 @@ public class main {
         }
         System.out.print("Hi!");
         System.out.println("Hi, but this one's a ln!");
+
+        System.out.println("Now that we know it works... welcome to SmallShopInventoryApp! :)\n");
+
     }
 
 }

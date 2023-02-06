@@ -2,13 +2,13 @@ package syntax.demo;
 
 public class item_inventoryobjectTemplate {
     //fields!
-    String type;
-    String quantity_type;
-    double quantity;
-    float price;
+    private String type;
+    private String quantity_type;
+    public double quantity;
+    public float price;
 
     //constructor (needs to include all of the above)
-    item_inventoryobjectTemplate(String type, String quantity_type, double quantity, float price) {
+    public item_inventoryobjectTemplate(String type, String quantity_type, double quantity, float price) {
         this.type = type;
         this.quantity_type = quantity_type;
         this.quantity = quantity;
@@ -16,12 +16,12 @@ public class item_inventoryobjectTemplate {
     }
 
     //methods
-    float updatepriceValue(float updatedpriceValue) {
+    public float updatepriceValue(float updatedpriceValue) {
         this.price = updatedpriceValue;
         return this.price;
     }
 
-    double updatestockQuantity(double updatedstockQuantity) {
+    public double updatestockQuantity(double updatedstockQuantity) {
         this.quantity = updatedstockQuantity;
         return this.quantity;
     }
