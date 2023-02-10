@@ -14,7 +14,7 @@ public class for_loop {
                 }
             }
     }
-    public static void main(String[]args) {
+    public static void vain(int[] args) {
         int arr[] = {1,2,3,4,122,98,34,91,429, 61};
 
         System.out.println("Array before bubble sort");
