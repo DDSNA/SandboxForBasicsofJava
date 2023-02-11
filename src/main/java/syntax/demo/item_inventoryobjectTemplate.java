@@ -2,8 +2,8 @@ package syntax.demo;
 
 public class item_inventoryobjectTemplate {
     //fields!
-    private String type;
-    private String quantity_type;
+    private final String type;
+    private final String quantity_type;
     public double quantity;
     public float price;
 

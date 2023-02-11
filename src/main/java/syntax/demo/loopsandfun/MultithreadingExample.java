@@ -1,7 +1,7 @@
 package syntax.demo.loopsandfun;
 
 public class MultithreadingExample extends Thread {
-    private int ThreadNumber;
+    private final int ThreadNumber;
     public MultithreadingExample(int threadNumber) {
         this.ThreadNumber = threadNumber;
     }

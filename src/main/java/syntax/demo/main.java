@@ -27,7 +27,7 @@ public class main {
             System.out.println();
             System.out.println("Here's something different");
 
-            int arr[] = {1, 323123, 32139, 312938, 312310, 2319};
+            int[] arr = {1, 323123, 32139, 312938, 312310, 2319};
             for_loop.vain(arr);
             System.out.println(arr + " ");
         }

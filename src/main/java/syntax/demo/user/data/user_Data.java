@@ -4,7 +4,7 @@ package syntax.demo.user.data;
 public class user_Data {
     protected String userName;
     //discovered protected which is a middle ground between private and public
-    private String passwordUnescure;
+    private final String passwordUnescure;
     public String userType;
 
 //constructor
