@@ -6,7 +6,6 @@ public class item_inventoryobjectTemplate {
     private final String quantity_type;
     public double quantity;
     public float price;
-
     //constructor (needs to include all of the above)
     public item_inventoryobjectTemplate(String type, String quantity_type, double quantity, float price) {
         this.type = type;
@@ -14,18 +13,15 @@ public class item_inventoryobjectTemplate {
         this.quantity = quantity;
         this.price = price;
     }
-
     //methods
     public float updatepriceValue(float updatedpriceValue) {
         this.price = updatedpriceValue;
         return this.price;
     }
-
     public double updatestockQuantity(double updatedstockQuantity) {
         this.quantity = updatedstockQuantity;
         return this.quantity;
     }
-
     //objects
     item_inventoryobjectTemplate faina = new item_inventoryobjectTemplate("aliment de baza", "bucata", 12, 15f);
     item_inventoryobjectTemplate salam = new item_inventoryobjectTemplate("mezeluri", "bucata", 37, 13.5f);
