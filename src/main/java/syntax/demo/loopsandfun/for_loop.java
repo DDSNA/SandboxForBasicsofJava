@@ -16,13 +16,11 @@ public class for_loop {
     }
     public static void vain(int[] args) {
         int[] arr = {1,2,3,4,122,98,34,91,429, 61};
-
         System.out.println("Array before bubble sort");
         for(int i=0; i < arr.length; i++){
             System.out.print(arr[i] + " ");
         }
         System.out.println();
-
         firstLoop(arr);
         System.out.println("Array after bubble sort");
         for(int i = 0; i < arr.length; i++){
