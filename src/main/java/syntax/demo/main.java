@@ -3,6 +3,8 @@ package syntax.demo;
 
 import syntax.demo.loopsandfun.MultithreadingExample;
 import syntax.demo.loopsandfun.for_loop;
+import java.io.*;
+import java.net.*;
 
 public class main {
     public static void main(String[] args) {
