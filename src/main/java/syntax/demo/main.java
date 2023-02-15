@@ -4,6 +4,7 @@ package syntax.demo;
 import syntax.demo.loopsandfun.MultithreadingExample;
 import syntax.demo.loopsandfun.for_loop;
 
+
 public class main {
     public static void main(String[] args) {
         if (args.length > 0) {
