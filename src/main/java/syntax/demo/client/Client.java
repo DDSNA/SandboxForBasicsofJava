@@ -32,7 +32,21 @@ public class Client {
             }
 
         //String to read message from input
+        String line = "";
+        
+        // keeps reading until "Over" is input
+        while (!line.equals("Over")) {
+            try {
+                line = input.readLine();
+                out.writeUTF(line);
+            }
+            catch (IOException i){
+                System.out.println(i);
+            }
         }
     }
 
+    public static void main(String[] args) {
+        Client client = new Client("127.0.0.1", 5000);
+    }
 }
