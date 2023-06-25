@@ -13,7 +13,7 @@ public class BasicInputIntMultiplicationwithSumandRemainder {
         int number_2 = in.nextInt();
 
         //sum
-        int sum = number_1 + number_1;
+        int sum = number_1 + number_2;
         System.out.println("The sum of " + number_1 + " and " +number_2 + " is " + sum);
 
         //product
