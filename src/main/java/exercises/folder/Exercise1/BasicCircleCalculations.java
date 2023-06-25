@@ -14,8 +14,13 @@ public class BasicCircleCalculations {
 
         double pow_1 = radius;
         double pow_2 = 2;
-        double circleCircumference = Math.PI * (Math.pow(pow_1,pow_2));
-        System.out.println("The circumference of the circle is " +  circleCircumference);
+        double circleArea = Math.PI * (Math.pow(pow_1,pow_2));
+        System.out.println("The area of the circle is " +  circleArea);
+
+        double circleCircumference = Math.PI * circleDiameter;
+        System.out.println("The circumference of the circle is " + circleCircumference);
+
+
 
     }
 }
