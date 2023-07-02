@@ -12,6 +12,6 @@ public class BasicInputIntMultiplication{
         System.out.println("Input second number, please:");
         int number_2 = in.nextInt();
 
-        System.out.println(number_1 + " multiplied by " + number_2 + " = " + number_2 * number_2);
+        System.out.println(number_1 + " multiplied by " + number_2 + " = " + number_1 * number_2);
 }
 }
